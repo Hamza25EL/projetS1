@@ -23,3 +23,12 @@ header {
     padding: 15px;
 }
 
+footer{
+
+
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+    padding: 15px;
+
+}
