@@ -32,3 +32,22 @@ footer{
     padding: 15px;
 
 }
+.contact a[href^="mailto:"]{
+    background-image: url("");
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    display: block;
+
+
+}
+
+.contact a[href^="https://www.facebook.com"]{
+    background-image: url("");
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    display: block;
+
+
+}
