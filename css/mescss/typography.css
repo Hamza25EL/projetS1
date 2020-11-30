@@ -1,17 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 
 html {
     font-size: 62.5%;
 }
 
 body {
-    background: lightgray;
-    font-family: 'IBM Plex Sans', sans-serif;
+    background: white;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.6;
     margin: 0 20px;
 }
 a {
     text-decoration: none;
-    color: tomato;
+    color: black;
+}
+main{
+    font-weight: normal;
+}
+
+.caroussel{
+    background-color: grey ;
+    color: white;
+    padding:20px ;
+}
+ul.caroussel-items{
+    list-style: none;
+    padding: 1rem 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+li.caroussel-items{
+    flex: 1 0 220px;
+    margin-right: 2rem;
+    scroll-snap-align: center;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: #555555;
+
+}
+::-webkit-scrollbar{
+    height: 2px;
+    background-color: tomato;
+}
+::-webkit-scrollbar-thumb{
+    background-color: tomato;
+}
+body {
+    background-color:#f7efff;
 }
