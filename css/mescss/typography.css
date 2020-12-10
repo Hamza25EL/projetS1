@@ -14,6 +14,10 @@ body {
     line-height: 1.6;
     margin: 0 20px;
 }
+header{
+    text-transform: uppercase;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -23,8 +27,8 @@ main{
 }
 
 .caroussel{
-    background-color: grey ;
-    color: white;
+    background-color: #CFB6ED;
+    color: black;
     padding:20px ;
 }
 ul.caroussel-items{
@@ -68,5 +72,8 @@ footer>span{
 }
 footer{
     background-color: #CFB6ED;
+    font-size: 1.4rem;
+    list-style-type: none;
 
 }
+.

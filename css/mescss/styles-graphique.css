@@ -9,6 +9,12 @@
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
 
+
+}
+.blur h1{
+
+    text-align: center;
+    z-index: 500;
 }
 
 img {
@@ -16,12 +22,21 @@ img {
     height: auto;
 }
 
+
 header {
     border-bottom-width: 1px;
     border-bottom-style: dashed;
     border-bottom-color: #000000;
     padding: 15px;
+
+
 }
+
+.logo img{
+    max-width: 8%;
+}
+
+
 
 footer{
 
@@ -31,23 +46,12 @@ footer{
     border-bottom-color: black;
     padding: 15px;
 
-}
-.contact a[href^="mailto:"]{
-    background-image: url("");
-    width: 40px;
-    height: 40px;
-    text-indent: -9999px;
-    display: block;
-
 
 }
 
-.contact a[href^="https://www.facebook.com"]{
-    background-image: url("");
-    width: 40px;
-    height: 40px;
-    text-indent: -9999px;
-    display: block;
-
-
+.Trac-3 {
+    width: 0;
+    height: 442.4px;
+    margin: 43.5px 0 110.9px;
+    border: solid 4px #cfb6ed;
 }
