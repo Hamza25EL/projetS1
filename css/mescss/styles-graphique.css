@@ -55,3 +55,33 @@ footer{
     margin: 43.5px 0 110.9px;
     border: solid 4px #cfb6ed;
 }
+.Trac-5 {
+   width: auto;
+    height: auto;
+    padding: 11.7px 35px 34.8px 52px;
+    background-image: linear-gradient(to bottom, #8c3ce8, rgba(190, 165, 218, 0.94) 58%, rgba(192, 170, 217, 0.56));
+}
+.Trac-5 {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to bottom, #8c3ce8, rgba(190, 165, 218, 0.94) 58%, rgba(192, 170, 217, 0.56));
+}
+.trailer {
+    width: 375px;
+    height: 211px;
+    margin: 0.2px 0 0;
+}
+.bus {
+    width: 375px;
+    height: 188px;
+    margin: 0.2px 0 0;
+    border: solid 1px #707070;
+}
+
+}
+.arbre{
+    width: 375px;
+    height: 194px;
+    margin: 0.2px 0 0;
+    border: solid 1px #707070;
+}
