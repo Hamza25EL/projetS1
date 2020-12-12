@@ -21,6 +21,7 @@ a {
 }
 main{
     font-weight: normal;
+
 }
 
 .caroussel{
@@ -78,9 +79,17 @@ main p{
     display: block;
 
 }
-.titre h1{
+.Trac-5 h3{
+    text-transform: uppercase;
     position: center;
-    margin-left: 50px;
+    margin-bottom: 0;
+    color: black;
+
+}
+.Trac-5 h4{
+   font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-top: 0;
 
 
 }

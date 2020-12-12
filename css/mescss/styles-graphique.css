@@ -52,13 +52,13 @@ footer{
 .Trac-3 {
     width: 0;
     height: 442.4px;
-    margin: 43.5px 0 110.9px;
+    margin: 43.5px 0 110.9px ;
     border: solid 4px #cfb6ed;
 }
 .Trac-5 {
    width: auto;
     height: auto;
-    padding: 11.7px 35px 34.8px 52px;
+    padding: 11.7px 35px 34.8px 42px;
     background-image: linear-gradient(to bottom, #8c3ce8, rgba(190, 165, 218, 0.94) 58%, rgba(192, 170, 217, 0.56));
 }
 .Trac-5 {
@@ -134,9 +134,26 @@ footer{
     background-color: #cfb6ed;
 }
 .titre2 {
-    width: 340px;
+    width: 380px;
     height: 140px;
-    margin: 30px 70px 34px 8px;
     border-radius: 56px;
     background-color: #cfb6ed;
+
+}
+
+.boutonvoir {
+    width: 150px;
+    height: 8px;
+    padding: 25px 25px 15px 25px;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+
+.boutonvoir h3{
+    padding-left: 50px;
+
+    margin:0
+
+
 }
