@@ -93,3 +93,12 @@ main p{
 
 
 }
+.boutonvoir1,
+.boutonvoir2,
+.boutonvoir3 a {
+    color: white;
+    padding-left: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+

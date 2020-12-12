@@ -60,12 +60,9 @@ footer{
     height: auto;
     padding: 11.7px 35px 34.8px 42px;
     background-image: linear-gradient(to bottom, #8c3ce8, rgba(190, 165, 218, 0.94) 58%, rgba(192, 170, 217, 0.56));
+    border-radius: 40px;
 }
-.Trac-5 {
-    width: auto;
-    height: auto;
-    background-image: linear-gradient(to bottom, #8c3ce8, rgba(190, 165, 218, 0.94) 58%, rgba(192, 170, 217, 0.56));
-}
+
 .trailer {
     width: 375px;
     height: 211px;
@@ -141,19 +138,34 @@ footer{
 
 }
 
-.boutonvoir {
-    width: 150px;
-    height: 8px;
-    padding: 25px 25px 15px 25px;
-    background-color: white;
-    margin-left: 40px;
+.boutonvoir1 {
+    width: 100px;
+    height: 2px;
+    padding: 10px 10px 10px 10px;
+    background-color: #723992 ;
+    margin-left: 80px;
     border-radius: 30px;
 }
 
-.boutonvoir h3{
-    padding-left: 50px;
 
-    margin:0
-
-
+.boutonvoir2 {
+    width: 100px;
+    height: 2px;
+    padding: 10px 10px 10px 10px;
+    background-color: #723992 ;
+    margin-left: 80px;
+    border-radius: 30px;
 }
+.boutonvoir3 {
+    width: 100px;
+    height: 2px;
+    padding: 10px 10px 10px 10px;
+    background-color: #723992 ;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+
+
+
+
+
