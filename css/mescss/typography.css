@@ -29,6 +29,14 @@ main{
     color: black;
     padding:20px ;
 }
+.caroussel2{
+    background-color: #555555;
+    color: black;
+    padding:20px ;
+}
+.caroussel2 img{
+max-width: 200px;
+}
 ul.caroussel-items{
     list-style: none;
     padding: 1rem 0;
