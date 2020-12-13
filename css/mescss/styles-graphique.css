@@ -36,7 +36,7 @@ header {
     max-width: 8%;
 }
 footer img{
-max-width: 10%;
+max-width: 8%;
 
 }
 
@@ -87,11 +87,12 @@ footer{
 
 .couleurfooter {
     width:375px ;
-    height: 300px;
+    height: 330px;
     padding:0;
     background-color: #cfb6ed;
     border-bottom-width: 0;
     margin-bottom: 0 ;
+    border-radius: 20px 20px;
 }
 .lignefooter{
     width: 315px;
@@ -166,16 +167,16 @@ footer{
 }
 
 .insta{
-
-
+    margin-left: 10px;
 }
 .gmail{
-
+margin-left: 10px;
 
 }
 .twitter{
-
-
+margin-left: 100px;
 }
 
-
+.fb{
+    margin-left: 10px;
+}

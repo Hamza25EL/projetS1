@@ -102,3 +102,17 @@ main p{
     text-transform: uppercase;
 }
 
+.contact h3, .rubriques h3{
+    margin-left: 10px;
+}
+.rubriques p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+.couleurfooter p, .couleurfooter span{
+    margin-bottom: 0;
+
+
+}
+
