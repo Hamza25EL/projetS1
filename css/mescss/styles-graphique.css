@@ -1,17 +1,34 @@
+body {
+    background-image: url("../../img/fond-test.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
-.fond{
+.fond {
     height: 100%;
     width: 100%;
     margin: 30px 0 42px;
     padding: 222px 15px 78px 16px;
     -webkit-filter: blur(3px);
     filter: blur(3px);
-    background-image: url("../../img/smithproduit.png");
+    background-image: url("../../img/fond-test.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+}
 
+h1 {
+    margin: 30vw 0 12vw 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
-.blur h1{
+.blur h1 {
 
     text-align: center;
     z-index: 500;
@@ -25,24 +42,21 @@ img {
 
 header {
     border-bottom-width: 1px;
-    border-bottom-style: dashed;
     border-bottom-color: #000000;
     padding: 15px;
-
-
 }
 
-.logo img{
+.logo img {
     max-width: 8%;
-}
-footer img{
-max-width: 8%;
-
+    position: fixed;
 }
 
+footer img {
+    max-width: 8%;
 
+}
 
-footer{
+footer {
 
     border-bottom-style: dashed;
     border-bottom-color: black;
@@ -52,11 +66,12 @@ footer{
 .Trac-3 {
     width: 0;
     height: 442.4px;
-    margin: 43.5px 0 110.9px ;
+    margin: 43.5px 0 110.9px;
     border: solid 4px #cfb6ed;
 }
+
 .Trac-5 {
-   width: auto;
+    width: auto;
     height: auto;
     padding: 11.7px 35px 34.8px 42px;
     background-image: linear-gradient(to bottom, #8c3ce8, rgba(190, 165, 218, 0.94) 58%, rgba(192, 170, 217, 0.56));
@@ -67,47 +82,50 @@ footer{
     width: 375px;
     height: 211px;
     margin: 0.2px 0 0;
+
 }
+
 .bus {
-    width: 120%;
-    height:120% ;
+
+
     margin: 0.2px 0 0;
-    border: solid 1px #707070;
+    border-radius: 20px;
 
 }
 
 
-.arbre{
+.arbre {
     width: 375px;
     height: 194px;
     margin: 0.2px 0 0;
-    border: solid 1px #707070;
+
 }
 
 
 .couleurfooter {
-    width:375px ;
-    height: 330px;
-    padding:0;
+    width: 375px;
+    height: 350px;
+    padding: 0;
     background-color: #cfb6ed;
     border-bottom-width: 0;
-    margin-bottom: 0 ;
-    border-radius: 20px 20px;
+    margin-bottom: 0;
+    border-radius: 20px 20px 0 0;
 }
-.lignefooter{
+
+.lignefooter {
     width: 315px;
     height: 0;
     margin-top: 50px;
     margin-bottom: 20px;
     border: solid 2px #8c3ce8;
-
 }
+
 .ligne1 {
     width: 0;
     height: 260px;
     position: absolute;
     border: solid 2px #cfb6ed;
-   left: 15px;
+    left: 15px;
 }
 
 .ligne2 {
@@ -117,6 +135,7 @@ footer{
     border: solid 2px #cfb6ed;
     right: 15px;
 }
+
 .numero {
     width: 32px;
     height: 15px;
@@ -124,6 +143,7 @@ footer{
     background-color: #8c3ce8;
     position: absolute;
 }
+
 .titre {
     width: 320px;
     height: 220px;
@@ -131,11 +151,35 @@ footer{
     border-radius: 56px;
     background-color: #cfb6ed;
 }
+
 .titre2 {
-    width: 380px;
-    height: 140px;
+    height: 170px;
     border-radius: 56px;
     background-color: #cfb6ed;
+
+
+}
+.titre3 {
+    height: 130px;
+    border-radius: 56px;
+    background-color: #cfb6ed;
+    padding-bottom: 5px;
+
+
+}
+.titre4{
+    height: 80px;
+    border-radius: 56px;
+    background-color: #cfb6ed;
+   margin-bottom: 80px;
+
+}
+.visuel{
+    background-image: url("../../img/smithproduit.png");
+    z-index: 2;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+
 
 }
 
@@ -143,7 +187,7 @@ footer{
     width: 100px;
     height: 2px;
     padding: 10px 10px 10px 10px;
-    background-color: #723992 ;
+    background-color: #723992;
     margin-left: 80px;
     border-radius: 30px;
 }
@@ -153,36 +197,95 @@ footer{
     width: 100px;
     height: 2px;
     padding: 10px 10px 10px 10px;
-    background-color: #723992 ;
+    background-color: #723992;
     margin-left: 80px;
     border-radius: 30px;
 }
+
 .boutonvoir3 {
     width: 100px;
     height: 2px;
     padding: 10px 10px 10px 10px;
-    background-color: #723992 ;
+    background-color: #723992;
     margin-left: 80px;
     border-radius: 30px;
 }
 
-.insta{
+.insta {
     margin-left: 10px;
 }
-.gmail{
-margin-left: 10px;
+
+.gmail {
+    margin-left: 10px;
 
 }
-.twitter{
-margin-left: 100px;
+
+.twitter {
+    margin-left: 70px;
+
+}
+.gmail [href^="mailto:"]{
+    background-image: url("../../img/icone-gmail.svg");
 }
 
-.fb{
+.fb {
     margin-left: 10px;
 }
+
 .youtube {
-    margin-left: 10px;
+    margin-left: 8px;
     max-width: 14%;
 
+}
+.Rectangle-67 {
+    width: 330px;
+    height: 633px;
+    margin: 53px 25px 90px 20px;
+    padding: 21px 12px 27px 9px;
+    border-radius: 36px;
+    background-color: rgba(152, 100, 214, 0.3);
+}
+.Rectangle-68 {
+    width: 154px;
+    height: 41px;
+    margin: 60px 5px 24px 2px;
+    padding: 8px 49px 5px 17px;
+    border-radius: 21px;
+    background-color: #efe7f9;
+}
+.Rectangle-69 {
+    width: 139px;
+    height: 41px;
+    margin: 60px 9px 24px 5px;
+    padding: 8px 63px 11px 16px;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.Rectangle-72 {
+    width: 303px;
+    height: 191px;
+    margin: 5px 4px 64px 2px;
+    padding: 10px 120px 125px 17px;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.Rectangle-70 {
+    width: 303px;
+    height: 41px;
+    margin: 24px 6px 8px 0;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.Rectangle-71 {
+    width: 303px;
+    height: 41px;
+    margin: 8px 6px 29px 0;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.multi-support{
+    max-width: 90%;
+    margin-bottom: 0;
+    margin-top: 0;
 
 }
