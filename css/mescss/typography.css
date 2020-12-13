@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: white;
+    background-color: aliceblue  ;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -93,8 +93,8 @@ main p{
 
 
 }
-.boutonvoir1,
-.boutonvoir2,
+.boutonvoir1 a,
+.boutonvoir2 a,
 .boutonvoir3 a {
     color: white;
     padding-left: 25px;
