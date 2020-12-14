@@ -104,22 +104,22 @@ main p{
 .boutonvoir1 a,
 .boutonvoir2 a,
 .boutonvoir3 a{
-    left: 43vw;
+    left: 44vw;
     color: white;
     position: absolute;
     text-transform: uppercase;
 }
 
 .boutonvoir1 a {
-    bottom: 77vw;
+    bottom: 61vw;
 }
 
 .boutonvoir2 a {
-    bottom: -71vw;
+    bottom: -87vw;
 }
 
 .boutonvoir3 a{
-    bottom: -197vw;
+    bottom: -212.5vw;
 }
 
 .contact h3, .rubriques h3{
