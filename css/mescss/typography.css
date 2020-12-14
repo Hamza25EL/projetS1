@@ -115,11 +115,11 @@ main p{
 }
 
 .boutonvoir2 a {
-    bottom: -44.7vw;
+    bottom: -71vw;
 }
 
 .boutonvoir3 a{
-    bottom: -144vw;
+    bottom: -197vw;
 }
 
 .contact h3, .rubriques h3{
@@ -132,7 +132,17 @@ main p{
 }
 .couleurfooter p, .couleurfooter span{
     margin-bottom: 0;
+    font-size: 1.4rem;
 
 
 }
+.accueil{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
 
+
+}
+ .accueil img{
+
+ }
