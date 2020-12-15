@@ -34,11 +34,15 @@ main{
     background-color: #CFB6ED;
     color: black;
     padding:20px ;
+    border-radius: 20px 20px;
+    margin-bottom: 100px;
 }
 .caroussel2{
-    background-color: #555555;
-    color: black;
+    background-color: #8C3CE8;
+    color: #000000;
     padding:20px ;
+    border-radius: 20px 20px;
+    margin-bottom: 70px;
 }
 .caroussel2 img{
 max-width: 200px;
@@ -63,10 +67,10 @@ li.caroussel-items{
 }
 ::-webkit-scrollbar{
     height: 2px;
-    background-color: tomato;
+    background-color: white;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: tomato;
+    background-color: white;
 }
 
 .menu{
@@ -126,15 +130,15 @@ main p{
 }
 
 .boutonvoir1 a {
-    bottom: 61vw;
+    bottom: 76.5vw;
 }
 
 .boutonvoir2 a {
-    bottom: -87vw;
+    bottom: -71vw;
 }
 
 .boutonvoir3 a{
-    bottom: -212.5vw;
+    bottom: -197vw;
 }
 
 .contact h3, .rubriques h3{
@@ -169,3 +173,21 @@ main p{
 
 
  }
+ .hamza {
+     text-align: center;
+     position: center;
+     color: #8C3CE8 ;
+     font-weight: bold;
+ }
+.caroussel2 h4{
+    color: #cfb6ed;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.caroussel2 h3{
+    text-transform: uppercase;
+}
+.caroussel h3 {
+
+    text-transform: uppercase;
+}
