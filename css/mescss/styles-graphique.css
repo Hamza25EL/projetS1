@@ -111,12 +111,14 @@ footer {
 
 .couleurfooter {
     width: 375px;
-    height: 350px;
+    height: 360px;
     padding: 0;
     background-color: #cfb6ed;
     border-bottom-width: 0;
     margin-bottom: 0;
     border-radius: 20px 20px 0 0;
+
+
 }
 
 .lignefooter {
@@ -222,7 +224,7 @@ footer {
 }
 
 .twitter {
-    margin-left: 70px;
+    margin-left: 40px;
 
 }
 .gmail [href^="mailto:"]{
@@ -234,10 +236,35 @@ footer {
 }
 
 .youtube {
-    margin-left: 8px;
-    max-width: 14%;
+    margin-left: 12px;
+
 
 }
+.linkedin{
+    margin-left: 10px;
+}
+.mmi {
+    margin-left: 10px;
+}
+.flechegauche {
+    margin-right: 40px;
+    margin-left: 60px;
+    max-width: 15%;
+}
+.flechedroite {
+
+    max-width: 15%;
+
+}
+.maison{
+    position: center;
+    max-width: 15%;
+    margin-right: 30px   ;
+}
+.fleche{
+    max-width: 15%;
+}
+
 .Rectangle-67 {
     width: 330px;
     height: 633px;
@@ -246,6 +273,7 @@ footer {
     border-radius: 36px;
     background-color: rgba(152, 100, 214, 0.3);
 }
+
 .Rectangle-68 {
     width: 154px;
     height: 41px;

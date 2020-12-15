@@ -73,9 +73,18 @@ h1{
     padding:20px;
 }
 
-footer>span{
-    color: #888888;
+.couleurfooter span{
+    color: #723992;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
 }
+.couleurfooter p{
+    margin-left: 10px;
+
+}
+
 main>h2{
     margin-left: 10px;
     position: center;
@@ -133,6 +142,7 @@ main p{
 .couleurfooter p, .couleurfooter span{
     margin-bottom: 0;
     font-size: 1.4rem;
+
 
 
 }
