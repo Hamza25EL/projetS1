@@ -48,8 +48,12 @@ header {
 
 .logo img {
     max-width: 8%;
+    margin-left: 5px;
+
+    
 
 }
+
 
 footer img {
     max-width: 8%;
@@ -111,7 +115,7 @@ footer {
 
 .couleurfooter {
     width: 375px;
-    height: 360px;
+    height: 340px;
     padding: 0;
     background-color: #cfb6ed;
     border-bottom-width: 0;
